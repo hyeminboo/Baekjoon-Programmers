@@ -8,4 +8,4 @@ h = 0
 for i in range(l):
     h += (ord(s[i]) - 96) * (R ** i)
 
-print(h)
+print(h % M)
